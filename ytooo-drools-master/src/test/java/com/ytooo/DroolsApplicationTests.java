@@ -40,6 +40,8 @@ class DroolsApplicationTests {
         cat.setSex(1);
         session.insert(cat);//插入
         session.fireAllRules();//执行规则
+/////////////////////////////////////////////
+
     }
 
     @Test
