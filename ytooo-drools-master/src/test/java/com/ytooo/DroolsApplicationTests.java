@@ -40,6 +40,8 @@ class DroolsApplicationTests {
         cat.setSex(1);
         session.insert(cat);//插入
         session.fireAllRules();//执行规则
+/////////////////////////////////////////////
+
     }
 
     @Test
@@ -64,7 +66,8 @@ class DroolsApplicationTests {
         session.insert(new People(1, "夏", "collect"));
         session.insert(new People(0, "冬", "collect"));
         session.insert(new People(3, "金", "collect"));
-
+        System.out.println("99");
+        System.out.println("99999999999");
         session.fireAllRules();//执行规则
     }
 

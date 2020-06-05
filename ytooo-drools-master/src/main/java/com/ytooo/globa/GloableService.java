@@ -1,6 +1,6 @@
 package com.ytooo.globa;
 
-import com.ytooo.bean.People;
+import com.ytooo.bean.ople;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
