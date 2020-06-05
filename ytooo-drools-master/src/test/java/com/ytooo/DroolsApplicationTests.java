@@ -64,7 +64,7 @@ class DroolsApplicationTests {
         session.insert(new People(1, "夏", "collect"));
         session.insert(new People(0, "冬", "collect"));
         session.insert(new People(3, "金", "collect"));
-
+        System.out.println("99");
         session.fireAllRules();//执行规则
     }
 
